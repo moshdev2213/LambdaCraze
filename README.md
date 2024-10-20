@@ -28,7 +28,7 @@ LambdaCraze is a serverless, to-do list application built to learn the basics of
 
 ---
 
-## 🏗️ AWS Resources Overview
+## 🏗️ Resources Overview
 
 Here’s a detailed description of the AWS services and how they were configured for the project:
 
@@ -91,7 +91,25 @@ CloudWatch is used for monitoring Lambda function executions and logging errors 
    - Use the AWS Console or AWS CLI to deploy your Lambda functions.
    - Attach each Lambda function to its respective API Gateway route.
 
----
+
+## Project Structure
+
+```
+LambdaCraze/
+│
+├── /lambdas/          # Directory containing all Lambda function code.
+│   ├── createTodo.js
+│   ├── deleteTodo.js
+│   ├── getTodo.js
+│   ├── updateTodo.js
+│   └── getAllTodos.js
+│
+├── /layers/           # Lambda layer for shared code (DB connection).
+│   └── db.js
+│
+├── README.md          # Project README file (this file).
+└── package.json       # Project dependencies.
+```
 
 ## 🌐 API Endpoints
 - **Base URL**: `https://1teptkpgy1.execute-api.ap-southeast-1.amazonaws.com/dev`
