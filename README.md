@@ -1,7 +1,9 @@
 
 # 🚀 LambdaCraze: Lets go Serverless
 
-
+<p align="center">
+     <img width="960" alt="18 (1)" src="https://github.com/user-attachments/assets/62191527-65b9-4f12-acfe-a9ce6a65074b">
+</p>
 
 ## 📖 Overview
 LambdaCraze is a serverless, to-do list application built to learn the basics of AWS Lambda and other cloud services. The project showcases how to create and manage a to-do list using AWS Lambda functions, API Gateway, MongoDB Atlas, and Postman for testing. The primary goal is to provide a hands-on introduction to AWS Lambda for beginners, demonstrating the interaction between different cloud components.
@@ -112,7 +114,17 @@ LambdaCraze/
 ```
 
 ## 🌐 API Endpoints
-- **Base URL**: `https://1teptkpgy1.execute-api.ap-southeast-1.amazonaws.com/dev`
+
+### Important ❌❌
+To access Delete End-points An Api-Key related To The Resource is must if in need please contact the repo-owner,
+
+```
+email : moshdev2213@gmail.com
+```
+
+```
+Base URL: `https://1teptkpgy1.execute-api.ap-southeast-1.amazonaws.com/dev`
+```
 
 | HTTP Method | Endpoint                                      | Description                          |
 | ----------- | --------------------------------------------- | ------------------------------------ |
